@@ -178,7 +178,7 @@ body {
 
 .slide {
     width: 20%;
-    transition: all linear 2s;
+    transition: all linear 1.5s;
 }
 
 .slide img{
@@ -193,7 +193,7 @@ body {
     position: absolute;
     width: 100%;
     bottom: 0;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
 }
@@ -798,6 +798,18 @@ body {
         padding-right: 1rem;
         padding-left: 1rem; 
     }
+
+    .manual-navigation {
+        display: none;
+    }
+
+    .navigation-auto {
+        display: none;
+    }
+
+    .slider {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1023px) and (min-width: 600px) {
@@ -835,5 +847,18 @@ body {
     .social__link .sub-footer-item {
         padding-right: 1rem;
         padding-left: 1rem; 
+    }
+
+    .manual-navigation {
+        display: none;
+    }
+
+    .navigation-auto {
+        display: none;
+    }
+
+    .slider {
+        width: 100%;
+        height: 50%;
     }
 }

@@ -3,3 +3,9 @@
     --white-color: #fff;
     --primary-color: #de7d77;
 }
+
+@font-face {
+    font-family: Dosis;
+    src: url(/assets/font/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
